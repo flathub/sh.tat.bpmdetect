@@ -41,4 +41,5 @@ modules:
         tag: v0.8.8
         x-checker-data:
           type: git
-          tag-pattern: '^v([\d.]+)$'
+          tag-pattern: ^v([\d.]+)$
+        commit: 9d39e7bbf2876089c478f048dfc08a6441bb416b
