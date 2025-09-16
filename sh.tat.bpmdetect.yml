@@ -38,7 +38,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/Tatsh/bpmdetect.git
-        tag: v0.8.8
+        tag: v0.8.9
         x-checker-data:
           type: git
-          tag-pattern: '^v([\d.]+)$'
+          tag-pattern: ^v([\d.]+)$
+        commit: f6229b848f77e2a4deb168fb5b0e56abc210d1b9
